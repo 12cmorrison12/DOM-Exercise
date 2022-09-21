@@ -22,3 +22,5 @@ liThird = document.getElementsByClassName('third');
 
 container.innerText = "Hello!";
 
+const footer = document.getElementsByClassName('footer');
+footer.createElement('div');
