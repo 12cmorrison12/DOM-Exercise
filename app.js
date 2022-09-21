@@ -22,11 +22,27 @@ footer.createElement('div');
 footer.remove('main');
 
 // Create a new li element.
+const uls = document.querySelector('ul');
+
+const newLi = document.createElement("li");
 
 // Give the li the text “four”.
+newLi.innerText = "four";
+
 // Append the li to the ul element.
+uls.append(newLi);
+
 // Loop over all of the lis inside the ol tag and give them a background color of “green”.
+const ols = document.querySelector('ol');
+const lis = ols.querySelectorAll('lis');
+
+for(let li of lis) {
+    li.style.color = "green";
+}
+
 // Remove the div with a class of footer
+const toRemove = document.getElementsByClassName('footer');
+toRemove.remove('div');
 
 
 
