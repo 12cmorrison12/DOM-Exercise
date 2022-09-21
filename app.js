@@ -9,7 +9,7 @@ const classOne = document.querySelectorAll('.second');
 
 // Select a list item with a class of third, but only the list item inside of the ol tag.
 const liThird = document.getElementsByTagName('ol');
-liThird = document.getElementsByClassName('third'); 
+liThird.getElementsByClassName('third'); 
 
 // Give the section with an id of container the text “Hello!”.
 container.innerText = "Hello!";
@@ -22,6 +22,7 @@ footer.createElement('div');
 footer.remove('main');
 
 // Create a new li element.
+
 // Give the li the text “four”.
 // Append the li to the ul element.
 // Loop over all of the lis inside the ol tag and give them a background color of “green”.
