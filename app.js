@@ -13,4 +13,4 @@ Remove the div with a class of footer */
 
 const container = document.getElementById('container');
 
-
+const containerQ = document.querySelector('#container');
